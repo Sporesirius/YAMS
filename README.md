@@ -4,7 +4,7 @@ Yet Another Multiboot System
 YAMS or Yet Another Multiboot System is a bootable image designed to be used as a All-in-One USB flash drive.
 You can boot Windows, Linux ISOs, EFI files or Tools. 
 
-## Features:
+## Features
 
  * Based on GRUB 2
  * 64-bit (x86 & ARM) / 32-bit (x86) UEFI (+ Secure Boot) support
@@ -19,7 +19,7 @@ Download [YAMS image file from releases page](https://github.com/Sporesirius/YAM
 The YAMS image contains two partitions, one is the $ESP (FAT32 512MB) partition and the other is the YAMS (NTFS 512MB) partition.
 Use [gparted](https://gparted.org/) for Linux, [MiniTool Partition Wizard](https://www.minitool.com/partition-manager/) for Windows or similar tools to resize the YAMS (NTFS 512MB) partition to get full USB drive space.
 
-## Based on:
+## Based / Inspired on
 Thanks to the following projects
  * [Super-UEFIinSecureBoot-Disk](https://github.com/ValdikSS/Super-UEFIinSecureBoot-Disk), Super UEFIinSecureBoot Disk: Boot any OS or .efi file without disabling UEFI Secure Boot
  * [a1ive's GRUB 2](https://github.com/a1ive/grub), Fork of GRUB 2 to add various features
@@ -31,4 +31,4 @@ Thanks to the following projects
  ## Other YAMS repos
  * [YAMS's GRUB 2](https://github.com/Sporesirius/grub2)
  * [YAMS's PreLoader](https://github.com/Sporesirius/PreLoader)
- * [YAMS's Tools](https://github.com/Sporesirius/yams-tools)
+ * [YAMS's Tools](https://github.com/Sporesirius/YAMS-Tools)
