@@ -25,8 +25,7 @@ Thanks to the following projects
  * [a1ive's GRUB 2](https://github.com/a1ive/grub), Fork of GRUB 2 to add various features
  * [multibootusb](https://github.com/aguslr/multibootusb), A collection of GRUB files and scripts that will allow you to create a pendrive capable of booting different ISO files
  * [Red Hat shim](https://github.com/rhboot/shim), [from Fedora](https://apps.fedoraproject.org/packages/shim-signed), signed with Microsoft key, for initial boot
- * Modified [Linux Foundation PreLoader](https://git.kernel.org/pub/scm/linux/kernel/git/jejb/efitools.git) to install circumventing UEFI Security Policy
- * GRUB 2 with security bypass patches to chainloader, linux/linuxefi and shim
+ * [Linux Foundation PreLoader](https://git.kernel.org/pub/scm/linux/kernel/git/jejb/efitools.git)
  
  ## Other YAMS repos
  * [YAMS's GRUB 2](https://github.com/Sporesirius/grub2)
