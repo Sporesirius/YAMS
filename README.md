@@ -24,7 +24,7 @@ Thanks to the following projects
  * [GRUB2](https://www.gnu.org/software/grub/) is a boot loader package from the GNU Project
  * [Super-UEFIinSecureBoot-Disk](https://github.com/ValdikSS/Super-UEFIinSecureBoot-Disk): Boot any OS or .efi file without disabling UEFI Secure Boot
  * [a1ive's GRUB 2](https://github.com/a1ive/grub), Fork of GRUB 2 to add various features
- * [multibootusb](https://github.com/aguslr/multibootusb), A collection of GRUB files and scripts that will allow you to create a pendrive capable of booting different ISO files
+ * [multibootusb](https://github.com/aguslr/multibootusb), A collection of GRUB files and scripts
  * [Red Hat shim](https://github.com/rhboot/shim), [from Fedora](https://apps.fedoraproject.org/packages/shim-signed), signed with Microsoft key, for initial boot
  * [Linux Foundation efitools](https://git.kernel.org/pub/scm/linux/kernel/git/jejb/efitools.git), Tools for manipulating UEFI secure boot platforms
  * [ImDisk](http://www.ltr-data.se/opencode.html/#ImDisk) is a virtual disk driver for Windows operating systems
