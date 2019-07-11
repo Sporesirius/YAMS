@@ -1,5 +1,5 @@
 # YAMS (Yet Another Multiboot System)
-# theme_efi_x86_64.txt
+# theme.txt
 
 # Global Property
 title-text: ""
@@ -19,7 +19,7 @@ terminal-border: "0"
   left = 35%
   width = 30%
   align = "center"
-  text = "YAMS v0.0.1b"
+  text = "YAMS v0.0.2b"
   color = "#cccccc"
   font = "Unifont Regular 16"
 }
