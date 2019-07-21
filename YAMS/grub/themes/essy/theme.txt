@@ -1,0 +1,94 @@
+# YAMS (Yet Another Multiboot System)
+# theme.txt
+
+# GLOBAL PROPERTY
+title-text:  ""
+title-color: "#F5F5F5"
+
+desktop-color: "#000000"
+desktop-image: "images/background.png"
+
+terminal-box : "images/terminal_box_*.png"
+
+# BOOT MENU
++ boot_menu {
+	left = 5%
+	width = 55%
+	top = 9%
+	height = 80%
+
+	item_color   = "#FFFFFF"
+	item_height  = 20
+	item_padding = 5
+	item_spacing = 4
+
+	item_icon_space = 8
+	icon_width = 32
+	icon_height = 32
+
+	selected_item_color = "#ba2727"
+	selected_item_pixmap_style = "images/select_*.png"
+
+	menu_pixmap_style = "images/menu_bkg_*.png"
+}
+
+# PROGRESS BAR
++ progress_bar {
+	id = "__timeout__"
+	width = 100%
+	height = 32
+	fg_color = "#4a4a4a"
+	bg_color = "#303030"
+	border_color = #303030"
+	show_text = true
+	text = "@TIMEOUT_NOTIFICATION_LONG@"
+	text_color = "#aaaaaa"
+}
+
+# ARCHITECTURE INFORMATION
++ label {
+	top = 97%-8
+	left = 2%
+	height = 30
+	color = "#F5F5F5"
+	var = "arch"
+}
+
+# FIRMWARE INFORMATION
++ label {
+	top = 97%-8
+	left = 10%
+	height = 30
+	color = "#F5F5F5"
+	var = "grub_platform"
+}
+
+# YAMS VERSION
++ label {
+	top = 97%-8
+	height = 30
+	width = 98%
+	color = "#F5F5F5"
+	align = "right"
+	var = "yams_version"
+}
+
+# NAVIGATION INFORMATION
++ label {
+	top = 92%
+	height = 30
+	width = 100%
+	color = "#FFFFFF"
+	align = "center"
+	text = "enter: execute entry, esc: back, `e': edit entry, `c': cli"
+}
+
+# MENUENTRY SCROLL INFORMATION
++ label {
+	top = 95%
+	height = 30
+	width = 100%
+	color = "#FFFFFF"
+	align = "center"
+	text = "@KEYMAP_SCROLL_ENTRY@"
+}
