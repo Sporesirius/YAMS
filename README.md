@@ -31,6 +31,6 @@ Thanks to the following projects
  * [wimboot](http://ipxe.org/wimboot) is a boot loader for Windows Imaging Format (.wim) files
  
  ## Other YAMS repos
- * [YAMS's GRUB 2](https://github.com/Sporesirius/grub2)
+ * [YAMS's GRUB 2](https://github.com/Sporesirius/YAMS-GRUB2.git)
  * [YAMS's PreLoader](https://github.com/Sporesirius/PreLoader)
  * [YAMS's Tools](https://github.com/Sporesirius/YAMS-Tools)
