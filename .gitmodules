@@ -1,0 +1,3 @@
+[submodule "essy"]
+	path = YAMS/grub/themes/essy
+	url = https://github.com/Sporesirius/GRUB2-Essy.git
