@@ -1,7 +1,7 @@
 Yet Another Multiboot System
 ===========================
 
-YAMS or Yet Another Multiboot System is a bootable image designed to be used as a All-in-One USB flash drive.
+YAMS or Yet Another Multiboot System is a bootable image designed to be used as an All-in-One USB flash drive.
 You can boot Windows, Linux ISOs, EFI files or Tools. 
 
 ## Features
