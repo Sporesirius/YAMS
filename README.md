@@ -1,6 +1,8 @@
 Yet Another Multiboot System
 ===========================
 
+NOTE: I recommend to use the new project Ventoy. It has more functions and is better designed. Therefore the YAMS project is archived.
+
 YAMS or Yet Another Multiboot System is a bootable image designed to be used as an All-in-One USB flash drive.
 You can boot Windows, Linux ISOs, EFI files or Tools. 
 
